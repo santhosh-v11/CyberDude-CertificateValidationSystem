@@ -49,10 +49,10 @@ const Hero = () => {
   ];
   return (
     <>
-      <section className="max-w-8xl mx-auto text-center md:px-30 px-20 py-30 bg-primary min-h-screen ">
+      <section className="container mx-auto text-center md:px-30 px-20 py-30 bg-primary min-h-screen ">
         {candidateData.map((candidate) => {
           return (
-            <div className="grid md:grid-cols-2 gap-5 " key={candidate.id}>
+            <div className="grid md:grid-cols-2 gap-5 container " key={candidate.id}>
               <div>
                 <div className="relative flex flex-col justify-center md:items-start items-center">
                   <img
