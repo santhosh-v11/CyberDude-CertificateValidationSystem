@@ -1,14 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Profile from './Components/Professional-profile/profile'
 import './App.css'
+import Projects from './Components/Projects-section/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-2xl text-orange-400 font-semibold'>CDN Certificate Validation</h1>
+    <div className='min-h-screen bg-primary py-10'>
+          
+            <Profile/>
+            <Projects/>
+    </div>
     </>
   )
 }
