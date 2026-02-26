@@ -1,16 +1,30 @@
-# React + Vite
+# CyberDude Certificate Validation System (UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the frontend UI for the CyberDude Certificate Validation System.
+The goal is to create a professional, mobile-responsive verification page where recruiters can check internship certificate details using a unique ID.
 
-Currently, two official plugins are available:
+## Current Status:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Only the UI part is completed. Backend integration will be added in the next phase.
 
-## React Compiler
+## What This Page Shows about the candidate
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Candidate Name
+- Internship Role
+- Certificate Verification Status (Valid / Not Valid)
+- Joined Date & Completion Date
+- Total Duration if internship
+- GitHub & LinkedIn (clickable links)
+- Primary Tech Stack
+- Key Projects
+- Recommendation Status
+- Professional Conduct / Standing
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React
+- TailwindCSS
+- Firebase(Planned for next phase)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Next Phase
+- Admin Panel
+- Backend Integration
