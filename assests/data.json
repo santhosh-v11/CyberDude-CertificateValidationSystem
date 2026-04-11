@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh.M",
+    "email": "Rajesh@gmail.com",
+    "role": "Fullstack Engineer",
+    "image": "profile",
+    "joinedDate": "Oct 30, 2025",
+    "completionDate": "April 30, 2026",
+    "totalDuration": "6 Months",
+    "totalDays": "182 Days",
+    "gitLink": "https://github.com/rajesh",
+    "linkedIn": "https://www.linkedin.com/in/pavithra-r-2621bb232/",
+    "techStack": [
+      "Javascript",
+      "TailwindCss",
+      "React",
+      "Figma",
+      "MangoDB",
+      "Node.js"
+    ],
+    "recommendation": "Highly Recommended",
+    "attendance": "96.5%",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Task Management System",
+        "desc": "A JavaScript-based Task Management System that allows users to add, update, and delete tasks efficiently.",
+        "link": "https://pavibritta.github.io/JavasriptInternshipProjects/Jstaskmanagement/"
+      },
+      {
+        "id": 2,
+        "title": "MP3 Song Downloader Website",
+        "desc": "A modern and responsive learning-based MP3 Song Downloader website developed using HTML, CSS, and Bootstrap.",
+        "link": "https://pavibritta.github.io/MP3-song-downloader/"
+      }
+    ],
+    "weeklyProjects": [
+
+  {
+    "id": 1,
+    "title": "Visiting Card",
+    "desc": "A digital visiting card designed using HTML and CSS with a clean and professional layout.",
+    "link": "https://github.com/Pavibritta/visiting-card"
+  },
+  {
+    "id": 2,
+    "title": "Portfolio HTML and CSS",
+    "desc": "A personal portfolio website built with pure HTML and CSS showcasing skills and projects.",
+    "link": "https://github.com/Pavibritta/portfolio-html-css"
+  },
+  {
+    "id": 3,
+    "title": "HTML & CSS",
+    "desc": "Static web pages built with pure HTML and CSS demonstrating core web development fundamentals.",
+    "link": "https://github.com/Pavibritta/html-css"
+  },
+  {
+    "id": 4,
+    "title": "HTML + CSS + Bootstrap",
+    "desc": "Responsive web pages built using HTML, CSS, and Bootstrap grid system for mobile-first design.",
+    "link": "https://github.com/Pavibritta/html-css-bootstrap"
+  },
+  {
+    "id": 5,
+    "title": "Learning Tailwind",
+    "desc": "Practice projects built while learning TailwindCSS utility-first framework from scratch.",
+    "link": "https://github.com/Pavibritta/learning-tailwind"
+  },
+  {
+    "id": 6,
+    "title": "Googlemeet Clone",
+    "desc": "A Google Meet UI clone built with HTML and TailwindCSS replicating the meeting interface layout.",
+    "link": "https://github.com/Pavibritta/googlemeet-clone"
+  },
+  {
+    "id": 7,
+    "title": "TW-Creative-Portfolio",
+    "desc": "A creative personal portfolio page built with TailwindCSS featuring modern design and layout.",
+    "link": "https://github.com/Pavibritta/tw-creative-portfolio"
+  },
+  {
+    "id": 8,
+    "title": "GitHub Clone",
+    "desc": "A GitHub profile page clone built with TailwindCSS replicating the repository and profile layout.",
+    "link": "https://github.com/Pavibritta/github-clone"
+  },
+  {
+    "id": 9,
+    "title": "TW-Clone-LinkedIn",
+    "desc": "A LinkedIn page clone rebuilt with TailwindCSS focusing on responsive design and utility-first styling.",
+    "link": "https://github.com/Pavibritta/tw-clone-linkedin"
+  },
+  {
+    "id": 10,
+    "title": "TW-Creative-Coffee-Shop",
+    "desc": "A creative coffee shop landing page built with TailwindCSS featuring modern design and animations.",
+    "link": "https://github.com/Pavibritta/tw-creative-coffee-shop"
+  },
+  {
+    "id": 11,
+    "title": "JavaScript Practice Projects",
+    "desc": "multiple interactive utilities using Vanilla JavaScript and DOM APIs.Developed a text formatter supporting uppercase, lowercase, bold, and italic formatting. Implemented dark/light theme toggle using dynamic DOM state updates. Integrated a quote generator using Fetch API to retrieve random quotes.Demonstrated event handling and realtime UI manipulation without frameworks",
+    "link": " "
+  },
+  {
+    "id": 12,
+    "title": "React Practice Projects",
+    "desc": "Mini projects using React.js and Hooks.",
+    "link": " "
+  },
+  {
+    "id": 13,
+    "title": "Supabase Practice Projects",
+    "desc": "practice databases",
+    "link": " "
+  },
+  {
+    "id": 14,
+    "title": "next.js final project ui",
+    "desc": "a fullstack project built with next.js for frontend featuring user authentication, CRUD operations, and responsive design.",
+    "link": " "
+  }
+],
+    "standing": "Good Standing",
+    "warnings": 0,
+    "completionStatus": "Completed",
+    "validationStatus": "Valid Certificate"
+  }
+]
