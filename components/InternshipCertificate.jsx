@@ -10,11 +10,11 @@ export default function InternshipCertificate() {
   const initials = candidate.name.split(' ').map((n) => n[0]).join('').substring(0, 2).toUpperCase();
 
   return (
-    <div className="w-full max-w-312 flex flex-col lg:flex-row gap-6 font-sans">
+    <div className="w-full max-w-[1600px] mx-auto flex flex-col gap-6 font-sans xl:max-w-[2000px] 2xl:max-w-[2400px] lg:flex-row lg:gap-8 xl:gap-10">
       {/* LEFT PANEL */}
 
       <aside
-        className="w-full lg:w-91.75 h-fit shrink-0 rounded-3xl border border-[rgba(255,107,0,0.2)] p-8"
+        className="w-full lg:w-[430px] xl:w-[520px] 2xl:w-[600px] h-fit shrink-0 rounded-3xl border border-[rgba(255,107,0,0.2)] p-8"
         style={{
           background: "linear-gradient(135deg, rgba(255,107,0,0.02), rgba(255,107,0,0.05))",
           backdropFilter: "blur(10px)",
@@ -155,7 +155,7 @@ export default function InternshipCertificate() {
         {/* Conduct & Performance */}
         <Section>
           <SectionHeader icon={MdOutlineAssignment} title="Conduct & Performance" iconColor="text-[#ff6b00]" />
-          <div className="grid grid-cols-3 gap-4 mt-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
             <StatCard label="Standing">
               <div
                 className="flex items-center gap-2 px-4 py-2 rounded-xl border border-[#22c55e] mt-2"
