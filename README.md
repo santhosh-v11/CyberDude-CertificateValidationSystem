@@ -1,16 +1,82 @@
-# React + Vite
+# CyberDude Certificate Validation System (UI)
+
+This repository contains the frontend UI for the CyberDude Certificate Validation System. It is designed as a professional, mobile-responsive verification page for recruiters to review internship certificate details and candidate status.
+
+## Current Status
+
+- UI is complete
+- Data is displayed from a local sample dataset
+- Backend integration is not yet implemented
+- Firebase is planned for the next phase
+
+## What This Page Shows
+
+- Candidate Name
+- Internship Role
+- Certificate Verification Status (Valid / Not Valid)
+- Joined Date & Completion Date
+- Total Internship Duration
+- GitHub & LinkedIn links
+- Primary Tech Stack
+- Key Projects
+- Recommendation Status
+- Professional Conduct / Standing
+
+## Tech Stack
+
+- Next.js 16
+- React 19
+- Tailwind CSS 4
+- ESLint
+- React Icons
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+```
 
-## React Compiler
+Run the development server:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Open `http://localhost:3000` in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build and Production
+
+Build the optimized production bundle:
+
+```bash
+npm run build
+```
+
+Start the production server:
+
+```bash
+npm run start
+```
+
+## Project Structure
+
+- `app/page.tsx` — main page rendering the certificate verification UI
+- `components/InternshipCertificate.jsx` — primary dashboard and UI components
+- `assests/data.js` — sample candidate data for UI demonstration
+- `app/globals.css` — global styling
+- `next.config.ts` — Next.js configuration
+
+## Next Phase
+
+- Admin Panel
+- Backend Integration
+- Firebase authentication and data storage
+- Live certificate lookup by unique verification ID
+
+## Notes
+
+- This UI is ready to receive backend data once integration begins.
+- Update `assests/data.js` to change the sample candidate record displayed on the page.
+- Run `npm run lint` to validate code quality.

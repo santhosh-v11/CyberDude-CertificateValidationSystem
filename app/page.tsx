@@ -1,9 +1,9 @@
-import Image from "next/image";
+import InternshipCertificate from '@/components/InternshipCertificate'
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      
-    </div>
+    <main className="min-h-screen bg-[#0b0b0b] flex items-start justify-center py-10 px-4 xl:px-8 2xl:px-16">
+      <InternshipCertificate/>
+    </main>
   );
 }
