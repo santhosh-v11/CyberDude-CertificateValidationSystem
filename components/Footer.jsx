@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube  } from "react-icons/fa";
 import logo from "@/public/logo-footer.svg";
 
 const Footer = () => {
@@ -59,21 +60,24 @@ const Footer = () => {
             <div className="p-5 max-sm:px-0">
               <p className="text-white font-bold pb-2 uppercase">Social</p>
 
-              <div className="text-white flex gap-4 text-lg">
-                <a href="#" className="hover:text-orange-500">
-                  <i className="fa-brands fa-facebook"></i>
+              <div className="text-white flex gap-4 text-lg"> 
+                <a href="https://www.youtube.com/user/CyberDudeNetworks" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500" aria-label="YouTube">
+                  <FaYoutube />
+                </a>
+                <a href="https://www.facebook.com/cdudenetworks" target="_blank" className="hover:text-orange-500" aria-label="Facebook">
+                  <FaFacebookF />
                 </a>
 
-                <a href="#" className="hover:text-orange-500">
-                  <i className="fa-brands fa-twitter"></i>
+                <a href="https://twitter.com/cdudenetworks" target="_blank" className="hover:text-orange-500" aria-label="Twitter">
+                  <FaTwitter />
                 </a>
 
-                <a href="#" className="hover:text-orange-500">
-                  <i className="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/cdudenetworks" target="_blank" className="hover:text-orange-500" aria-label="Instagram">
+                  <FaInstagram />
                 </a>
 
-                <a href="#" className="hover:text-orange-500">
-                  <i className="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/company/cyberdude-networks" target="_blank" className="hover:text-orange-500" aria-label="LinkedIn">
+                  <FaLinkedinIn />
                 </a>
               </div>
             </div>
