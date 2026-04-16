@@ -5,8 +5,8 @@
     "email": "Rajesh@gmail.com",
     "role": "Fullstack Engineer",
     "image": "profile",
-    "joinedDate": "Oct 30, 2025",
-    "completionDate": "April 30, 2026",
+    "joinedDate": "Oct 30,2025",
+    "completionDate": "April 30,2026",
     "totalDuration": "6 Months",
     "totalDays": "182 Days",
     "gitLink": "https://github.com/rajesh",
@@ -25,102 +25,43 @@
       {
         "id": 1,
         "title": "Task Management System",
-        "desc": "A JavaScript-based Task Management System that allows users to add, update, and delete tasks efficiently.",
+        "desc": "A JavaScript-based Task Management System that allows users to add, update, and delete tasks efficiently. The application helps users organize daily tasks with a simple and user-friendly interface, focusing on core JavaScript functionality and DOM manipulation.",
         "link": "https://pavibritta.github.io/JavasriptInternshipProjects/Jstaskmanagement/"
       },
       {
         "id": 2,
         "title": "MP3 Song Downloader Website",
-        "desc": "A modern and responsive learning-based MP3 Song Downloader website developed using HTML, CSS, and Bootstrap.",
+        "desc": "A modern and responsive learning-based MP3 Song Downloader website developed using HTML, CSS, and Bootstrap. The website includes structured sections such as Home, How to Install, Features, and GitHub, providing clear guidance and an intuitive user experience. Fully responsive across mobile, tablet, and desktop devices.",
         "link": "https://pavibritta.github.io/MP3-song-downloader/"
       }
     ],
-    "weeklyProjects": [
-
-  {
-    "id": 1,
-    "title": "Visiting Card",
-    "desc": "A digital visiting card designed using HTML and CSS with a clean and professional layout.",
-    "link": "https://github.com/Pavibritta/visiting-card"
-  },
-  {
-    "id": 2,
-    "title": "Portfolio HTML and CSS",
-    "desc": "A personal portfolio website built with pure HTML and CSS showcasing skills and projects.",
-    "link": "https://github.com/Pavibritta/portfolio-html-css"
-  },
-  {
-    "id": 3,
-    "title": "HTML & CSS",
-    "desc": "Static web pages built with pure HTML and CSS demonstrating core web development fundamentals.",
-    "link": "https://github.com/Pavibritta/html-css"
-  },
-  {
-    "id": 4,
-    "title": "HTML + CSS + Bootstrap",
-    "desc": "Responsive web pages built using HTML, CSS, and Bootstrap grid system for mobile-first design.",
-    "link": "https://github.com/Pavibritta/html-css-bootstrap"
-  },
-  {
-    "id": 5,
-    "title": "Learning Tailwind",
-    "desc": "Practice projects built while learning TailwindCSS utility-first framework from scratch.",
-    "link": "https://github.com/Pavibritta/learning-tailwind"
-  },
-  {
-    "id": 6,
-    "title": "Googlemeet Clone",
-    "desc": "A Google Meet UI clone built with HTML and TailwindCSS replicating the meeting interface layout.",
-    "link": "https://github.com/Pavibritta/googlemeet-clone"
-  },
-  {
-    "id": 7,
-    "title": "TW-Creative-Portfolio",
-    "desc": "A creative personal portfolio page built with TailwindCSS featuring modern design and layout.",
-    "link": "https://github.com/Pavibritta/tw-creative-portfolio"
-  },
-  {
-    "id": 8,
-    "title": "GitHub Clone",
-    "desc": "A GitHub profile page clone built with TailwindCSS replicating the repository and profile layout.",
-    "link": "https://github.com/Pavibritta/github-clone"
-  },
-  {
-    "id": 9,
-    "title": "TW-Clone-LinkedIn",
-    "desc": "A LinkedIn page clone rebuilt with TailwindCSS focusing on responsive design and utility-first styling.",
-    "link": "https://github.com/Pavibritta/tw-clone-linkedin"
-  },
-  {
-    "id": 10,
-    "title": "TW-Creative-Coffee-Shop",
-    "desc": "A creative coffee shop landing page built with TailwindCSS featuring modern design and animations.",
-    "link": "https://github.com/Pavibritta/tw-creative-coffee-shop"
-  },
-  {
-    "id": 11,
-    "title": "JavaScript Practice Projects",
-    "desc": "multiple interactive utilities using Vanilla JavaScript and DOM APIs.Developed a text formatter supporting uppercase, lowercase, bold, and italic formatting. Implemented dark/light theme toggle using dynamic DOM state updates. Integrated a quote generator using Fetch API to retrieve random quotes.Demonstrated event handling and realtime UI manipulation without frameworks",
-    "link": " "
-  },
-  {
-    "id": 12,
-    "title": "React Practice Projects",
-    "desc": "Mini projects using React.js and Hooks.",
-    "link": " "
-  },
-  {
-    "id": 13,
-    "title": "Supabase Practice Projects",
-    "desc": "practice databases",
-    "link": " "
-  },
-  {
-    "id": 14,
-    "title": "next.js final project ui",
-    "desc": "a fullstack project built with next.js for frontend featuring user authentication, CRUD operations, and responsive design.",
-    "link": " "
-  }
+     "weeklyProjects": [
+  { "week": 1, "project": "Visiting Card" },
+  { "week": 2, "project": "Portfolio HTML + CSS" },
+  { "week": 3, "project": "HTML+CSS" },
+  { "week": 4, "project": "HTML+CSS+bootstrap" },
+  { "week": 5, "project": "Learning Tailwind" },
+  { "week": 6, "project": "Gmeet-clone" },
+  { "week": 7, "project": "TW-Creative-Portfolio" },
+  { "week": 8, "project": "TW-clone-github" },
+  { "week": 9, "project": "TW-clone-linkedin" },
+  { "week": 10, "project": "TW-creative-coffee-shop" },
+  { "week": 11, "project": ["Document Fragment","Dynamic User Manager","Active State Navigator"] },
+  { "week": 12, "project": ["Greeting Bot","Background color Switcher"] },
+  { "week": 13, "project": ["Text Formatter","Show Hide Password","Dynamic Bullet Points","Simple Cart Counter","Dark Mode Toggle & Live Character Counter","FAQ section","Search/Filter List"] },
+  { "week": 14, "project": ["Random Quote Generator","Calculator App","Git Profile Finder","Project Estimation"]},
+  { "week": 15, "project": "HTML+CSS+Bootstrap" },
+  { "week": 16, "project": "Gmeet-clone" },
+  { "week": 17, "project": "HTML+TailwindCSS" },
+  { "week": 18, "project": "TW-clone-github" },
+  { "week": 19, "project": "TW-clone-linkedin" },
+  { "week": 20, "project": "TW-creative-coffee-shop" },
+  { "week": 21, "project": "LinkedIn santhosh-v11" },
+  { "week": 22, "project": "Visiting Card" },
+  { "week": 23, "project": "HTML+CSS practice" },
+  { "week": 24, "project": "HTML+CSS" },
+  { "week": 25, "project": "HTML+CSS+Bootstrap" },
+  { "week": 26, "project": "Gmeet-clone" }
 ],
     "standing": "Good Standing",
     "warnings": 0,
@@ -128,3 +69,5 @@
     "validationStatus": "Valid Certificate"
   }
 ]
+
+

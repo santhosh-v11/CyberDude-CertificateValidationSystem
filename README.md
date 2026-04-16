@@ -30,7 +30,7 @@ This repository contains the frontend UI for the CyberDude Certificate Validatio
 - ESLint
 - React Icons
 
-## Getting Started
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Install dependencies:
 
