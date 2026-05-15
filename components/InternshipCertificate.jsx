@@ -11,6 +11,15 @@ import { FiExternalLink, FiArrowRight } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useState } from "react";
 
+import {
+  FaReact,
+  FaNodeJs,
+  FaJsSquare,
+  FaFigma
+} from "react-icons/fa";
+
+import { SiTailwindcss, SiMongodb } from "react-icons/si";
+
 export default function InternshipCertificate({ candidate }) {
   const [activeTab, setActiveTab] = useState("projects");
   const initials = candidate.name
@@ -20,6 +29,14 @@ export default function InternshipCertificate({ candidate }) {
     .substring(0, 2)
     .toUpperCase();
 
+    const techIcons = {
+  Javascript: <FaJsSquare />,
+  React: <FaReact />,
+  "Node.js": <FaNodeJs />,
+  TailwindCss: <SiTailwindcss />,
+  Figma: <FaFigma />,
+  MangoDB: <SiMongodb />,
+};
   return (
     <div className="w-full max-w-[1600px] mx-auto flex flex-col gap-6 font-sans xl:max-w-[2000px] 2xl:max-w-[2400px] lg:flex-row lg:gap-8 xl:gap-10">
       {/* LEFT PANEL */}
@@ -91,17 +108,18 @@ export default function InternshipCertificate({ candidate }) {
           </p>
           <div className="flex flex-wrap gap-2">
             {candidate.techStack.map((tech) => (
-              <span
-                key={tech}
-                className="px-3 py-1.5 rounded-lg border border-[rgba(255,255,255,0.1)] text-white text-[12px] font-medium"
-                style={{
-                  background: "rgba(255,255,255,0.05)",
-                  backdropFilter: "blur(4px)",
-                }}
-              >
-                {tech}
-              </span>
-            ))}
+  <span
+    key={tech}
+    className="px-3 py-1.5 rounded-lg border border-[rgba(255,255,255,0.1)] text-white text-[12px] font-medium flex items-center gap-2"
+    style={{
+      background: "rgba(255,255,255,0.05)",
+      backdropFilter: "blur(4px)",
+    }}
+  >
+    {techIcons[tech]}
+    {tech}
+  </span>
+))}
           </div>
         </div>
       </aside>
